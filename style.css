@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{   background-color: lightgrey;}
+
+
+
+header{
+    padding: 15px;
+    /* margin :10px; */
+    margin-bottom: 20px;
+       background-color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 50px; */
+    
+}
+ul{
+     padding-left: 30px;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+header h2{
+Font-family : Inter, sans-serif;
+
+Font-size : 25px;
+
+
+Color : #37373f;
+}
+.booking{
+    padding: 10px;
+    border-radius: 20px ;
+    background-color: #ce1212;
+    color: white;
+}
+ul li{
+list-style: none;
+font-family: inter,sans-serif;
+font-size: 18px;
+}
+ul li a{
+    color: grey;
+    text-decoration: none;
+
+}
+ul li a:hover{
+    color: black;
+}
+
+
+
+
+/* index section hero */
+
+section{
+    background-color: lightgrey;
+}
+
+.hero{
+    display: flex;
+    gap: 50px;
+}
+
+.textleft{
+    padding-left: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.left h1{
+    Font-family : Amatic SC, cursive;
+Font-size : 50px;
+Font-weight: 700;
+Line-height : 1.2;
+color : #37373f;
+padding: 15px;
+}
+.left h3 {
+
+    Font-family : Amatic SC, cursive;
+    margin-top: 3px;
+    Font-weight: 700;
+    margin-bottom: 3px;
+    padding: 15px;
+    font-size: 30px;
+
+
+}
+.left h4{
+
+     font-family: "Poppins", sans-serif;
+     padding: 15px;
+     margin-bottom: 5px;
+Font-size : 16px;
+color : black; 
+}
+.right{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.animated{
+    position: relative;
+  animation-name: plat;
+  animation-duration: 3s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+   animation-direction: alternate;
+     
+
+}
+@keyframes plat {
+  0% {
+    transform: translateY(0); 
+  }
+  100% {
+    transform: translateY(100px); 
+  }
+}
