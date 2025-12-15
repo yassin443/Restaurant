@@ -40,7 +40,9 @@ Color : #37373f;
     padding: 10px;
     border-radius: 20px ;
     background-color: #ce1212;
-    color: white;
+    color: white ;
+    font-weight: 1000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 ul li{
 list-style: none;
@@ -125,4 +127,88 @@ color : black;
   100% {
     transform: translateY(100px); 
   }
+}
+
+/* contact part */
+.mas{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 15px
+
+}
+.intro{ display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-family:"poppins", sans-serif ; 
+    font-weight: 700px;
+
+}
+iframe{
+   width: 1000px;
+    height: 500px;
+    border: none;
+
+}
+.contact-section{
+    max-width: 1000px;
+  margin: auto;
+  padding: 60px 20px;
+  display: flex;
+  gap: 80px;
+}
+
+.table{
+    display: block;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+ background-color: #ce1212;
+  width: 100%;
+     font-family:"poppins", sans-serif ; 
+    font-weight: 700px;
+    color: white
+}
+td, th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.right{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+form{
+    display: flex;
+}
+.row {
+  display: flex;
+  gap: 20px;
+  width: auto;
+}
+input,
+textarea {
+  border: none;
+  border-bottom: 2px solid #eaeaea;
+  padding: 12px 8px;
+  font-size: 15px;
+  outline: none;
+  width:390%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+.btn-situation{
+    display: 
+   flex;
+   justify-content: center;
+   align-items: center;
 }
