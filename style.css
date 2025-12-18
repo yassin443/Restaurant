@@ -212,3 +212,155 @@ textarea {
    justify-content: center;
    align-items: center;
 }
+
+/* part about */
+
+
+.H-About {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Playfair Display", serif;
+  margin: 40px 0;
+ color: white;
+  letter-spacing: 2px;
+}
+
+
+.About-Us {
+  display: flex;
+  gap: 50px;
+  padding: 60px 80px;
+  background-color: #e0e0e0;
+  align-items: center;
+}
+
+
+.Imagg-About {
+  width: 520px;
+  height: 340px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+.text-About h3 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: red;
+  margin-bottom: 15px;
+}
+
+/* Paragraphe */
+.text-About p {
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.stats-section {
+  background-image: url("restaurant-about-us.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6); 
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-container {
+  display: flex;
+  gap: 80px;
+  text-align: center;
+  color: white;
+}
+
+.stat h2 {
+  font-size: 48px;
+  margin-bottom: 5px;
+}
+
+.stat p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/* menu part */
+
+
+
+
+.menu-title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 40px;
+  color: #2b2b2b;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu-subtitle {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #777;
+  font-family: "Poppins", sans-serif;
+}
+
+/* GRID container */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
+  gap: 30px;
+  padding: 0 80px 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card */
+.menu-card {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Hover animation */
+.menu-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Dish name */
+.menu-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #8b5e34;
+}
+
+/* Description */
+.menu-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Price */
+.price {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  color: #000;
+}
